@@ -19,6 +19,23 @@
 </head>
 
 <body>
+
+    <!-- Social media icon sidebar -->
+    <div class="icon-bar">
+        <a href="#" class="facebook">
+            <i class="fa fa-facebook"></i>
+        </a>
+        <a href="#" class="twitter">
+            <i class="fa fa-twitter"></i>
+        </a>
+        <a href="#" class="linkedin">
+            <i class="fa fa-linkedin"></i>
+        </a>
+        <a href="#" class="youtube">
+            <i class="fa fa-youtube"></i>
+        </a>
+    </div>
+    <!-- Transparent navbar -->
     <nav class="navbar sticky-top navbar-expand-sm navbar-dark transparent">
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -45,12 +62,17 @@
             </div>
         </div>
     </nav>
+
+    <!-- Video for fullscreen intro with fallback video formats for different browsers -->
     <header class="v-header container">
         <div class="fullscreen-video-wrap">
+            <!-- muted for autoplay to work in Chrome -->
             <video muted autoplay="true" loop="true">
                 <source src="video/holoVid.mp4" type="video/mp4">
                 <source src="video/holoVid.webm" type="video/webm">
-                <source src="video/holoVid.ogv" type="video/ogg"> your browser doesn't support HTML5 video.
+                <source src="video/holoVid.ogv" type="video/ogg">
+                <!-- Provide user message if their browser doesn't support html5 video -->
+                your browser doesn't support HTML5 video.
             </video>
         </div>
         <div class="header-overlay"></div>
@@ -86,8 +108,6 @@
             </p>
         </div>
     </section>
-
-
 
 
 
