@@ -146,3 +146,13 @@ body {
   color: white;
 }
  */
+.parent {
+  position: relative;
+}
+
+#logo {
+  position: absolute;
+  left: 0;
+  top: -100px;
+  transition: all ease 2s;
+}

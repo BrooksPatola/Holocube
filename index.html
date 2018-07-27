@@ -42,10 +42,13 @@
     <!-- Transparent navbar -->
     <nav class="navbar sticky-top navbar-expand-sm navbar-dark transparent">
         <div class="container">
-
-            <a class="navbar-brand" href="#">
-                <img src="img/logo.png" alt=" ">
-            </a>
+            <div class="parent">
+                <div id="logo">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/logo.png" alt=" ">
+                    </a>
+                </div>
+            </div>
 
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -132,7 +135,9 @@
 
     <script>
 
-
+        $(document).ready(function () {
+            $('#logo').css('top', '0px');
+        });
 
     </script>
 
